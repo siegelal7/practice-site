@@ -1,0 +1,91 @@
+.navbar {
+    width:100%;
+    background-color: #5FB404!important;
+    
+    padding:0;
+   
+    
+}
+
+.navbar-text {
+    display:block;
+    text-align:center;
+}
+
+.navbar-form {
+   
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.navbar-button{
+    border-color: #088A08!important;
+    color:#088A08!important;
+    
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-text{
+        text-align:left!important;
+        float:left!important;
+    
+    }
+  }
+
+.cursive-text {
+    font-family: 'Dancing Script', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: skewY(2deg);
+}
+
+#diagonal-up{
+    transform: skewY(-2deg);
+}
+
+.stay {
+    
+    display:flex;
+   
+}
+.phone {
+    height:2em;
+    width:2em;
+}
+
+.list-group2{
+    float:right;
+    opacity:0.7;
+}
+.list-group1{
+    float:left;
+    opacity:0.7;
+}
+a:hover{
+    background-color:skyblue!important;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color:#99cc00;
+    border-color: #007bff;
+}
+
+
+.jumbotron{
+  
+  
+  min-height: 450px;
+  background-image: url("utah_og.jpg");
+  background-repeat:no-repeat;  
+  
+ 
+    
+}
+
+@media screen and (min-width: 1192px) {
+    .jumbotron {
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+  }
