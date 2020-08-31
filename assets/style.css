@@ -1,10 +1,14 @@
 .navbar {
     width:100%;
-    background-color: #5FB404!important;
-    
+    background-color: #0DA826!important;
     padding:0;
-   
     
+}
+
+#linkedin-logo{
+    margin-left:25%;
+    height: 15%;
+    width: 15%;
 }
 
 .navbar-text {
@@ -82,12 +86,25 @@ a:hover{
     }
   }
 
-.new-font{
-    font-family: 'Dancing Script', 'Yesteryear', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.5em;
-}
 
 .new-font-bold{
     font-family: 'Dancing Script', 'Yesteryear', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3em;
+}
+
+.footer{
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+h2{
+    font-family: "Dancing Script", "SegoeU UI", Tahoma, Geneva;
+    font-size:4em;
+    text-shadow: 2px 2px #A0C7C4;
+}
+.try{
+    font-family: "Dancing Script", "SegoeU UI", Tahoma, Geneva;
+    font-size:1.8em;
+    text-shadow: 1px 1px #A0C7C4;
 }
