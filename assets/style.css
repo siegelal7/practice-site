@@ -24,14 +24,6 @@
     
 }
 
-@media screen and (max-width: 992px) {
-    .navbar-text{
-        text-align:left!important;
-        float:left!important;
-    
-    }
-  }
-
 .cursive-text {
     font-family: 'Dancing Script', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transform: skewY(2deg);
@@ -89,3 +81,8 @@ a:hover{
         margin-right:auto;
     }
   }
+
+.new-font{
+    font-family: 'Dancing Script', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
